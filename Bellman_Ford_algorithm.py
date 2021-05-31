@@ -23,13 +23,13 @@ def bellman_ford(graph: Graph) -> float:
 def print_solution(graph: Graph,result):
 
     print("")
-    print("-" * (len(result) * 8 + 24))
-    print("| WIERZCHOŁEK          |   ",end="")
+    print("-" * (len(result) * 8 + 30))
+    print("|           VERTEX           |   ", end="")
     for vertex in sorted(graph.vertices):
         print(f"{vertex}   |   ", end="")
     print("")
-    print("-" * (len(result) * 8 + 24))
-    print("| ODLEGŁOŚĆ OD ŹRÓDŁA  |   ", end="")
+    print("-" * (len(result) * 8 + 30))
+    print("|  DISTANCE FROM THE SOURCE  |   ", end="")
     for res in result:
         if res < 0:
             print(f"\b{res}   |   ", end="")
@@ -44,7 +44,7 @@ def print_solution(graph: Graph,result):
             print(f"\b{res}  |   ", end="")
             continue
     print("")
-    print("-" * (len(result) * 8 + 24))
+    print("-" * (len(result) * 8 + 30))
 
 
 
