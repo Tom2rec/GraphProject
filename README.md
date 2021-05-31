@@ -1,17 +1,14 @@
-# Projekt - teoria gragfów
+# Graph Theory - project
 
 ---
 
-## Implementacja algorytmu Bellmana_Forda 
+## Implementation of Bellman-Ford's algorithm
 
-### Instrukcja uruchomienia
 
-```bash
-$ python run.py
-```
+### Graph format 
 
-### Format grafu
 
+---
 ```json
 {
   "start": number,
@@ -19,6 +16,13 @@ $ python run.py
   "weight": number
 }
 
-// number dowolna liczba zmiennoprzecinkowa
+// number <- random float number
+```
+
+### Usage
+
+---
+```bash
+$ python run.py
 ```
 
