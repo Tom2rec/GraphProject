@@ -1,7 +1,7 @@
 # Graph Theory - project
 
 
-# Implementation of Bellman-Ford's algorithm
+## Implementation of Bellman-Ford's algorithm
 
 
 ## Graph format 
