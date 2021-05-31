@@ -1,10 +1,10 @@
 # Graph Theory - project
 
 
-## Implementation of Bellman-Ford's algorithm
+# Implementation of Bellman-Ford's algorithm
 
 
-### Graph format 
+## Graph format 
 
 ```json
 {
@@ -16,7 +16,7 @@
 // number <- random float number
 ```
 
-### Usage
+## Usage
 
 ```bash
 $ python run.py
