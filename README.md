@@ -1,14 +1,11 @@
 # Graph Theory - project
 
----
 
 ## Implementation of Bellman-Ford's algorithm
 
 
 ### Graph format 
 
-
----
 ```json
 {
   "start": number,
@@ -21,7 +18,6 @@
 
 ### Usage
 
----
 ```bash
 $ python run.py
 ```
