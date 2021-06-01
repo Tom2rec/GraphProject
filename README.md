@@ -23,11 +23,11 @@ or
   "weight": number
 }
 
-// start   <- of the edge 
-// end     <- of the edge
-// number  <- random number
+// start               <- of the edge 
+// end                 <- of the edge
+// number              <- random number
 // (nonnegative int)   <- start, end
-// (float) <- weight
+// (float)             <- weight
 
 // Graph in JSON file should be connected with path from source to each vertex
 ```
