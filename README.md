@@ -8,17 +8,21 @@
 
 ```json
 {
-  "start": number,
+  "start":  number,
   "end": number,
   "weight": number
 }
 
-// number <- random float number
+// start   <- of the edge 
+// end     <- of the edge
+// number  <- random number
+// (int)   <- start, end
+// (float) <- weight
 ```
 
 ## Usage
 
 ```bash
-$ python run.py
+C:\GraphProject> python run.py
 ```
 
