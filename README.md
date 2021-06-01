@@ -19,7 +19,7 @@
 // (int)   <- start, end
 // (float) <- weight
 
-//// JSON file should contain info for each vertex - from 0 to the highest vertex
+// JSON file should contain info for each vertex - from 0 to the highest vertex
 ```
 
 ## Usage
