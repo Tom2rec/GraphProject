@@ -4,8 +4,18 @@
 ## Implementation of Bellman-Ford's algorithm
 
 
-## Graph format 
+## Usage
 
+```bash
+C:\GraphProject> python run.py
+```
+or
+
+```bash
+~/GraphProject$ python3 run.py
+```
+
+## Graph format 
 ```json
 {
   "start":  number,
@@ -19,16 +29,22 @@
 // (int)   <- start, end
 // (float) <- weight
 
-// JSON file should contain info for each vertex - from 0 to the highest vertex
+// Graph in JSON file should be connected with path from source to each vertex
 ```
 
-## Usage
-
-```bash
-C:\GraphProject> python run.py
+### Example
+```json
+[
+  {
+    "start": 0,
+    "end": 1,
+    "weight": 5
+  },
+  {
+    "start": 1,
+    "end": 3,
+    "weight": 3
+  }
+]
 ```
-or
 
-```bash
-~/GraphProject$ python3 run.py
-```
