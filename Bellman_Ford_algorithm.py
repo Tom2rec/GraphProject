@@ -50,8 +50,9 @@ def print_solution(result):
             if result[key] < 1000:
                 print(f"\b{result[key]}  |   ", end="")
                 continue
-        print("")
+        print()
         print("-" * (len(result) * 8 + 30))
+        print()
 
 
 

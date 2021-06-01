@@ -27,4 +27,8 @@
 ```bash
 C:\GraphProject> python run.py
 ```
+or
 
+```bash
+~/GraphProject$ python3 run.py
+```
