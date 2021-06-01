@@ -48,8 +48,9 @@ def print_solution(graph: Graph,result):
             if res < 1000:
                 print(f"\b{res}  |   ", end="")
                 continue
-        print("")
+        print()
         print("-" * (len(result) * 8 + 30))
+        print()
 
 
 
