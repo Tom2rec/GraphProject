@@ -22,6 +22,7 @@ class Graph:
         if not e.end in self.vertices:
             self.vertices.append(e.end)
             Graph.verticesCount += 1
+        self.vertices = sorted(self.vertices)
 
     def print(self):
         for edge in self.graph:
